@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2111BE021ED0880006EF123 /* icono_playa.png in Resources */ = {isa = PBXBuildFile; fileRef = F2111BDF21ED0880006EF123 /* icono_playa.png */; };
+		F2111BE221ED0928006EF123 /* icono_montaña.png in Resources */ = {isa = PBXBuildFile; fileRef = F2111BE121ED0928006EF123 /* icono_montaña.png */; };
+		F2B14E7921ECE7520046EC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B14E7821ECE7520046EC4A /* AppDelegate.swift */; };
+		F2B14E7B21ECE7520046EC4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B14E7A21ECE7520046EC4A /* ViewController.swift */; };
+		F2B14E7E21ECE7520046EC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B14E7C21ECE7520046EC4A /* Main.storyboard */; };
+		F2B14E8021ECE7520046EC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B14E7F21ECE7520046EC4A /* Assets.xcassets */; };
+		F2B14E8321ECE7520046EC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B14E8121ECE7520046EC4A /* LaunchScreen.storyboard */; };
+		F2B14E8E21ECE7520046EC4A /* CeliaFinal_ViajeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B14E8D21ECE7520046EC4A /* CeliaFinal_ViajeAppTests.swift */; };
+		F2B14E9921ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B14E9821ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.swift */; };
+		F2B14EAE21ECE79A0046EC4A /* viaje.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EAD21ECE79A0046EC4A /* viaje.png */; };
+		F2B14EB021ECEAEA0046EC4A /* playa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EAF21ECEAEA0046EC4A /* playa.jpg */; };
+		F2B14EB221ECEC070046EC4A /* montaña.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EB121ECEC070046EC4A /* montaña.jpg */; };
+		F2B14EB421ECF0980046EC4A /* playa in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EB321ECF0980046EC4A /* playa */; };
+		F2B14EB821ED007C0046EC4A /* montaña2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EB521ED007C0046EC4A /* montaña2.jpg */; };
+		F2B14EB921ED007C0046EC4A /* montaña1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EB621ED007C0046EC4A /* montaña1.jpg */; };
+		F2B14EBA21ED007C0046EC4A /* montaña3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2B14EB721ED007C0046EC4A /* montaña3.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2B14E8A21ECE7520046EC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B14E6D21ECE7520046EC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B14E7421ECE7520046EC4A;
+			remoteInfo = CeliaFinal_ViajeApp;
+		};
+		F2B14E9521ECE7520046EC4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2B14E6D21ECE7520046EC4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2B14E7421ECE7520046EC4A;
+			remoteInfo = CeliaFinal_ViajeApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2111BDF21ED0880006EF123 /* icono_playa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icono_playa.png; sourceTree = "<group>"; };
+		F2111BE121ED0928006EF123 /* icono_montaña.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icono_montaña.png"; sourceTree = "<group>"; };
+		F2B14E7521ECE7520046EC4A /* CeliaFinal_ViajeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeliaFinal_ViajeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B14E7821ECE7520046EC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2B14E7A21ECE7520046EC4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2B14E7D21ECE7520046EC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2B14E7F21ECE7520046EC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2B14E8221ECE7520046EC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2B14E8421ECE7520046EC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B14E8921ECE7520046EC4A /* CeliaFinal_ViajeAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeliaFinal_ViajeAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B14E8D21ECE7520046EC4A /* CeliaFinal_ViajeAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeliaFinal_ViajeAppTests.swift; sourceTree = "<group>"; };
+		F2B14E8F21ECE7520046EC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B14E9421ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeliaFinal_ViajeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2B14E9821ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeliaFinal_ViajeAppUITests.swift; sourceTree = "<group>"; };
+		F2B14E9A21ECE7520046EC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B14EAD21ECE79A0046EC4A /* viaje.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viaje.png; sourceTree = "<group>"; };
+		F2B14EAF21ECEAEA0046EC4A /* playa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = playa.jpg; sourceTree = "<group>"; };
+		F2B14EB121ECEC070046EC4A /* montaña.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "montaña.jpg"; sourceTree = "<group>"; };
+		F2B14EB321ECF0980046EC4A /* playa */ = {isa = PBXFileReference; lastKnownFileType = folder; path = playa; sourceTree = "<group>"; };
+		F2B14EB521ED007C0046EC4A /* montaña2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "montaña2.jpg"; sourceTree = "<group>"; };
+		F2B14EB621ED007C0046EC4A /* montaña1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "montaña1.jpg"; sourceTree = "<group>"; };
+		F2B14EB721ED007C0046EC4A /* montaña3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "montaña3.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2B14E7221ECE7520046EC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B14E8621ECE7520046EC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B14E9121ECE7520046EC4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2B14E6C21ECE7520046EC4A = {
+			isa = PBXGroup;
+			children = (
+				F2B14E7721ECE7520046EC4A /* CeliaFinal_ViajeApp */,
+				F2B14E8C21ECE7520046EC4A /* CeliaFinal_ViajeAppTests */,
+				F2B14E9721ECE7520046EC4A /* CeliaFinal_ViajeAppUITests */,
+				F2B14E7621ECE7520046EC4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2B14E7621ECE7520046EC4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2B14E7521ECE7520046EC4A /* CeliaFinal_ViajeApp.app */,
+				F2B14E8921ECE7520046EC4A /* CeliaFinal_ViajeAppTests.xctest */,
+				F2B14E9421ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2B14E7721ECE7520046EC4A /* CeliaFinal_ViajeApp */ = {
+			isa = PBXGroup;
+			children = (
+				F2B14EA621ECE77D0046EC4A /* Resources */,
+				F2B14E7821ECE7520046EC4A /* AppDelegate.swift */,
+				F2B14E7A21ECE7520046EC4A /* ViewController.swift */,
+				F2B14E7C21ECE7520046EC4A /* Main.storyboard */,
+				F2B14E7F21ECE7520046EC4A /* Assets.xcassets */,
+				F2B14E8121ECE7520046EC4A /* LaunchScreen.storyboard */,
+				F2B14E8421ECE7520046EC4A /* Info.plist */,
+			);
+			path = CeliaFinal_ViajeApp;
+			sourceTree = "<group>";
+		};
+		F2B14E8C21ECE7520046EC4A /* CeliaFinal_ViajeAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B14E8D21ECE7520046EC4A /* CeliaFinal_ViajeAppTests.swift */,
+				F2B14E8F21ECE7520046EC4A /* Info.plist */,
+			);
+			path = CeliaFinal_ViajeAppTests;
+			sourceTree = "<group>";
+		};
+		F2B14E9721ECE7520046EC4A /* CeliaFinal_ViajeAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F2B14E9821ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.swift */,
+				F2B14E9A21ECE7520046EC4A /* Info.plist */,
+			);
+			path = CeliaFinal_ViajeAppUITests;
+			sourceTree = "<group>";
+		};
+		F2B14EA621ECE77D0046EC4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F2111BDF21ED0880006EF123 /* icono_playa.png */,
+				F2B14EB621ED007C0046EC4A /* montaña1.jpg */,
+				F2111BE121ED0928006EF123 /* icono_montaña.png */,
+				F2B14EB521ED007C0046EC4A /* montaña2.jpg */,
+				F2B14EB721ED007C0046EC4A /* montaña3.jpg */,
+				F2B14EB321ECF0980046EC4A /* playa */,
+				F2B14EAF21ECEAEA0046EC4A /* playa.jpg */,
+				F2B14EAD21ECE79A0046EC4A /* viaje.png */,
+				F2B14EB121ECEC070046EC4A /* montaña.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2B14E7421ECE7520046EC4A /* CeliaFinal_ViajeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B14E9D21ECE7520046EC4A /* Build configuration list for PBXNativeTarget "CeliaFinal_ViajeApp" */;
+			buildPhases = (
+				F2B14E7121ECE7520046EC4A /* Sources */,
+				F2B14E7221ECE7520046EC4A /* Frameworks */,
+				F2B14E7321ECE7520046EC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CeliaFinal_ViajeApp;
+			productName = CeliaFinal_ViajeApp;
+			productReference = F2B14E7521ECE7520046EC4A /* CeliaFinal_ViajeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2B14E8821ECE7520046EC4A /* CeliaFinal_ViajeAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B14EA021ECE7520046EC4A /* Build configuration list for PBXNativeTarget "CeliaFinal_ViajeAppTests" */;
+			buildPhases = (
+				F2B14E8521ECE7520046EC4A /* Sources */,
+				F2B14E8621ECE7520046EC4A /* Frameworks */,
+				F2B14E8721ECE7520046EC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B14E8B21ECE7520046EC4A /* PBXTargetDependency */,
+			);
+			name = CeliaFinal_ViajeAppTests;
+			productName = CeliaFinal_ViajeAppTests;
+			productReference = F2B14E8921ECE7520046EC4A /* CeliaFinal_ViajeAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F2B14E9321ECE7520046EC4A /* CeliaFinal_ViajeAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2B14EA321ECE7520046EC4A /* Build configuration list for PBXNativeTarget "CeliaFinal_ViajeAppUITests" */;
+			buildPhases = (
+				F2B14E9021ECE7520046EC4A /* Sources */,
+				F2B14E9121ECE7520046EC4A /* Frameworks */,
+				F2B14E9221ECE7520046EC4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2B14E9621ECE7520046EC4A /* PBXTargetDependency */,
+			);
+			name = CeliaFinal_ViajeAppUITests;
+			productName = CeliaFinal_ViajeAppUITests;
+			productReference = F2B14E9421ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2B14E6D21ECE7520046EC4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Celia;
+				TargetAttributes = {
+					F2B14E7421ECE7520046EC4A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F2B14E8821ECE7520046EC4A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F2B14E7421ECE7520046EC4A;
+					};
+					F2B14E9321ECE7520046EC4A = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F2B14E7421ECE7520046EC4A;
+					};
+				};
+			};
+			buildConfigurationList = F2B14E7021ECE7520046EC4A /* Build configuration list for PBXProject "CeliaFinal_ViajeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2B14E6C21ECE7520046EC4A;
+			productRefGroup = F2B14E7621ECE7520046EC4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2B14E7421ECE7520046EC4A /* CeliaFinal_ViajeApp */,
+				F2B14E8821ECE7520046EC4A /* CeliaFinal_ViajeAppTests */,
+				F2B14E9321ECE7520046EC4A /* CeliaFinal_ViajeAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2B14E7321ECE7520046EC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B14E8321ECE7520046EC4A /* LaunchScreen.storyboard in Resources */,
+				F2B14E8021ECE7520046EC4A /* Assets.xcassets in Resources */,
+				F2B14EBA21ED007C0046EC4A /* montaña3.jpg in Resources */,
+				F2111BE021ED0880006EF123 /* icono_playa.png in Resources */,
+				F2B14EB821ED007C0046EC4A /* montaña2.jpg in Resources */,
+				F2111BE221ED0928006EF123 /* icono_montaña.png in Resources */,
+				F2B14EB421ECF0980046EC4A /* playa in Resources */,
+				F2B14EB921ED007C0046EC4A /* montaña1.jpg in Resources */,
+				F2B14EAE21ECE79A0046EC4A /* viaje.png in Resources */,
+				F2B14E7E21ECE7520046EC4A /* Main.storyboard in Resources */,
+				F2B14EB221ECEC070046EC4A /* montaña.jpg in Resources */,
+				F2B14EB021ECEAEA0046EC4A /* playa.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B14E8721ECE7520046EC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B14E9221ECE7520046EC4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2B14E7121ECE7520046EC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B14E7B21ECE7520046EC4A /* ViewController.swift in Sources */,
+				F2B14E7921ECE7520046EC4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B14E8521ECE7520046EC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B14E8E21ECE7520046EC4A /* CeliaFinal_ViajeAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2B14E9021ECE7520046EC4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2B14E9921ECE7520046EC4A /* CeliaFinal_ViajeAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2B14E8B21ECE7520046EC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B14E7421ECE7520046EC4A /* CeliaFinal_ViajeApp */;
+			targetProxy = F2B14E8A21ECE7520046EC4A /* PBXContainerItemProxy */;
+		};
+		F2B14E9621ECE7520046EC4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2B14E7421ECE7520046EC4A /* CeliaFinal_ViajeApp */;
+			targetProxy = F2B14E9521ECE7520046EC4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2B14E7C21ECE7520046EC4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B14E7D21ECE7520046EC4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2B14E8121ECE7520046EC4A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2B14E8221ECE7520046EC4A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2B14E9B21ECE7520046EC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2B14E9C21ECE7520046EC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2B14E9E21ECE7520046EC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeliaFinal_ViajeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Celia.CeliaFinal-ViajeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2B14E9F21ECE7520046EC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeliaFinal_ViajeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Celia.CeliaFinal-ViajeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2B14EA121ECE7520046EC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeliaFinal_ViajeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Celia.CeliaFinal-ViajeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeliaFinal_ViajeApp.app/CeliaFinal_ViajeApp";
+			};
+			name = Debug;
+		};
+		F2B14EA221ECE7520046EC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeliaFinal_ViajeAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Celia.CeliaFinal-ViajeAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeliaFinal_ViajeApp.app/CeliaFinal_ViajeApp";
+			};
+			name = Release;
+		};
+		F2B14EA421ECE7520046EC4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeliaFinal_ViajeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Celia.CeliaFinal-ViajeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CeliaFinal_ViajeApp;
+			};
+			name = Debug;
+		};
+		F2B14EA521ECE7520046EC4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CeliaFinal_ViajeAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Celia.CeliaFinal-ViajeAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CeliaFinal_ViajeApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2B14E7021ECE7520046EC4A /* Build configuration list for PBXProject "CeliaFinal_ViajeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B14E9B21ECE7520046EC4A /* Debug */,
+				F2B14E9C21ECE7520046EC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B14E9D21ECE7520046EC4A /* Build configuration list for PBXNativeTarget "CeliaFinal_ViajeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B14E9E21ECE7520046EC4A /* Debug */,
+				F2B14E9F21ECE7520046EC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B14EA021ECE7520046EC4A /* Build configuration list for PBXNativeTarget "CeliaFinal_ViajeAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B14EA121ECE7520046EC4A /* Debug */,
+				F2B14EA221ECE7520046EC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2B14EA321ECE7520046EC4A /* Build configuration list for PBXNativeTarget "CeliaFinal_ViajeAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2B14EA421ECE7520046EC4A /* Debug */,
+				F2B14EA521ECE7520046EC4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2B14E6D21ECE7520046EC4A /* Project object */;
+}
